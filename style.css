@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafaf9;
+}
+.blogCard {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+.cardContent {
+  padding: 20px;
+}
+.blogCard img {
+  width: 100%;
+  border-radius: 10px;
+}
+.cardTag span {
+  color: #883ae1;
+  background-color: #e6d6fc;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px 0;
+  display: inline-block;
+}
+.cardTitle h3 {
+  color: #20293a;
+}
+.cardText p {
+  margin: 10px 0;
+  color: #6c727f;
+}
+.cardBottom {
+  border-top: 2px solid #e5eaf0;
+}
+.cardBottom span {
+  padding: 20px;
+  display: inline-block;
+  color: #6c727f;
+  font-size: 14px;
+  font-weight: 500;
+}
